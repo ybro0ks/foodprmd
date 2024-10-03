@@ -1,0 +1,247 @@
+/* style and clip it up
+*/
+.triangle{
+    position: relative;
+    height: 550px;
+    clip-path: polygon(50% 0, 20% 100%, 80% 100%)
+}
+
+.triangle div{
+    position: absolute;
+    top:0;
+    background: red;
+    width: 100%;
+    height:100px;
+    margin: 0 auto 10px;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-size: 0.8em;
+    transition: all ease 0.6s;
+}
+
+
+.top {
+    z-index:1;
+}
+
+.triangle:hover div{
+    color:white;
+    .button{
+        border: none;
+        color: black;
+        padding: 16px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+.triangle:hover .mid{
+    top: 110px;
+    background:orange;
+}
+
+.triangle:hover .bottom{
+    top: 220px;
+    background:yellow;
+}
+
+.triangle:hover .level4{
+    top: 320px;
+    background:blue;
+}
+
+.triangle:hover .level5{
+    top: 400px;
+    background:rgb(82, 59, 59);
+}
+.triangle:hover .level6{
+    top: 480px;
+    background:green;
+}
+
+
+.button1{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.mid:hover .button1{
+    opacity: 1;
+}
+.button2{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.mid:hover .button2{
+    opacity: 1;
+}
+
+.button3{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.bottom:hover .button3{
+    opacity: 1;
+}
+.button4{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.bottom:hover .button4{
+    opacity: 1;
+}
+.button5{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.level4:hover .button5{
+    opacity: 1;
+}
+.button6{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.level4:hover .button6{
+    opacity: 1;
+}
+.button7{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.level5:hover .button7{
+    opacity: 1;
+}
+.button8{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.level5:hover .button8{
+    opacity: 1;
+}
+.button9{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.level6:hover .button9{
+    opacity: 1;
+}
+.button10{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.level6:hover .button10{
+    opacity: 1;
+}
+.buttona{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.top:hover .buttona{
+    opacity: 1;
+}
+.buttonb{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.top:hover .buttonb{
+    opacity: 1;
+}
